@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Deployment Guide
 
-## Getting Started
+Follow these instructions to deploy the Next.js application to GitHub Pages.
 
-First, run the development server:
+## 🛠 Setup (One-time)
+
+Install the `gh-pages` package as a dev dependency:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install gh-pages --save-dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Deployment Workflow
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Perform these steps every time you want to deploy changes:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Checkout Main Branch**: Ensure you are on the `main` branch.
+    ```bash
+    git checkout main
+    ```
+2.  **Commit Changes**: Stage and commit all your changes.
+    ```bash
+    git add .
+    git commit -m "Your commit message"
+    ```
+3.  **Deploy**: Run the deploy script. This command creates a static build and pushes it to the `gh-pages` branch.
+    ```bash
+    npm run deploy
+    ```
 
-## Learn More
+> **Note**: Your changes will become live on the `gh-pages` branch after 2-3 minutes.
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 Important Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*   **Gitignore**: Ensure the `.next` folder is added to your `.gitignore` file. There is no need to commit it to the main branch.
+*   **Live Site**: You can view your changes at:  
+    [https://sarthakworks.github.io/nextjs/](https://sarthakworks.github.io/nextjs/)

@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[28561,["/_next/static/chunks/aaa81d9206179eaa.js"],"default"]
+3:I[30059,["/_next/static/chunks/aaa81d9206179eaa.js"],"default"]
+4:I[94909,["/_next/static/chunks/aaa81d9206179eaa.js"],"default"]
+5:I[81403,["/_next/static/chunks/aaa81d9206179eaa.js"],"default"]
+6:I[44831,["/_next/static/chunks/a66f9ddc4e7f2515.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"9FX6kvNLHIQO7Nz-iHM6D","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-background text-foreground overflow-hidden selection:bg-primary/30","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","footer",null,{"className":"py-8 text-center text-gray-500 text-sm border-t border-white/5 bg-black/50 backdrop-blur-sm","children":["$","p",null,{"children":["© ",2025," John Doe. All rights reserved."]}]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/aaa81d9206179eaa.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+8:null
